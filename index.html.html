@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stitch</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: rgba(255,255,255,0.95);
+            border-radius: 18px;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+            padding: 32px 28px;
+            text-align: center;
+        }
+        img {
+            width: 220px;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(25, 118, 210, 0.15);
+            margin-bottom: 18px;
+        }
+        h1 {
+            color: #1976d2;
+            font-size: 2.8rem;
+            margin-bottom: 8px;
+            letter-spacing: 2px;
+        }
+        h2 {
+            color: #0288d1;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        ul {
+            text-align: left;
+            margin: 0 auto 18px auto;
+            max-width: 500px;
+            padding-left: 0;
+            list-style: none;
+        }
+        ul li {
+            background: #e3f2fd;
+            margin-bottom: 8px;
+            padding: 10px 16px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(25,118,210,0.04);
+        }
+        a {
+            color: #1976d2;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #0288d1;
+            text-decoration: underline;
+        }
+        .nav-links {
+            margin: 18px 0 24px 0;
+        }
+        .video-container {
+            margin: 28px 0;
+            display: flex;
+            justify-content: center;
+        }
+        .btn-pelicula {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 10px 22px;
+            background: #1976d2;
+            color: #fff;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 2px 8px rgba(25,118,210,0.12);
+            transition: background 0.2s;
+        }
+        .btn-pelicula:hover {
+            background: #0288d1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stitch</h1>
+        <img src="s.jpg" alt="Stitch, personaje de Lilo & Stitch">
+        <p>
+            <strong>Stitch</strong> es un personaje ficticio de la película animada <em>Lilo & Stitch</em> de Disney. 
+            Su nombre original es <strong>Experimento 626</strong> y fue creado por el Dr. Jumba Jookiba como una criatura alienígena diseñada para causar caos y destrucción.
+        </p>
+        <ul>
+            <li><strong>Primera aparición:</strong> Lilo & Stitch (2002)</li>
+            <li><strong>Personalidad:</strong> Travieso, curioso, leal y cariñoso</li>
+            <li><strong>Frase famosa:</strong> "Ohana significa familia"</li>
+        </ul>
+        <!-- Enlaces a secciones -->
+        <div class="nav-links">
+            <a href="#datos-curiosos">Ir a Datos curiosos</a> | 
+            <a href="#familia-amigos">Ir a Familia y amigos</a> | 
+            <a href="#pelicula">Ir a Sobre la película</a>
+        </div>
+        <!-- Video de Stitch -->
+        <div class="video-container">
+            <video width="320" height="180" controls>
+                <source src="Hawaiian Roller Coaster Ride (From Lilo & Stitch) (1).mp4" type="video/mp4">
+                <source src="Hawaiian Roller Coaster Ride (From Lilo & Stitch) (1).mp4" type="video/webm">
+                Tu navegador no soporta el video.
+            </video>
+        </div>
+        <h2 id="datos-curiosos">Datos curiosos</h2>
+        <ul>
+            <li>Stitch fue diseñado para ser prácticamente indestructible y extremadamente inteligente.</li>
+            <li>Puede levantar objetos 3,000 veces su propio peso.</li>
+            <li>Habla varios idiomas, incluyendo inglés y alienígena.</li>
+            <li>Su color azul es uno de sus rasgos más distintivos.</li>
+            <li>Con el tiempo, aprende el valor de la familia y la amistad gracias a Lilo.</li>
+            <li>Puede escalar paredes y techos gracias a sus garras afiladas.</li>
+            <li>Es resistente al fuego, balas y electricidad.</li>
+            <li>Le encanta tocar la guitarra y bailar hula.</li>
+            <li>Su comida favorita es el helado.</li>
+            <li>Puede esconder sus brazos y antenas para parecer un perro común.</li>
+            <li>Es el experimento número 626 de una serie de experimentos genéticos.</li>
+            <li>Stitch tiene una risa muy característica y un lenguaje propio cuando se emociona.</li>
+        </ul>
+
+        <h2 id="pelicula">Sobre la película "Lilo & Stitch"</h2>
+        <p>
+            <strong>Lilo & Stitch</strong> es una película animada de Disney estrenada en 2002. La historia sigue a Lilo, una niña hawaiana que adopta a Stitch pensando que es un perro, sin saber que en realidad es un experimento alienígena fugitivo. A lo largo de la película, ambos aprenden el verdadero significado de la familia y la importancia de aceptarse tal como son.
+        </p>
+        <ul>
+            <li><strong>Director:</strong> Chris Sanders y Dean DeBlois</li>
+            <li><strong>Productora:</strong> Walt Disney Feature Animation</li>
+            <li><strong>Premios:</strong> Nominada al Óscar como Mejor Película Animada</li>
+            <li><strong>Secuelas:</strong> La película tuvo varias secuelas y una serie animada.</li>
+            <li><strong>Frase icónica:</strong> "Ohana significa familia. Familia significa que nadie se queda atrás ni se olvida."</li>
+            <li><strong>Ambientación:</strong> La película se desarrolla en Hawái, mostrando la cultura y paisajes de la isla.</li>
+            <li><strong>Banda sonora:</strong> Incluye canciones hawaianas y clásicos de Elvis Presley.</li>
+            <li><strong>Mensaje:</strong> Resalta la importancia de la familia, la tolerancia y la aceptación de las diferencias.</li>
+        </ul>
+        <a class="btn-pelicula" href="https://es.wikipedia.org/wiki/Lilo_%26_Stitch" target="_blank">Más sobre la película</a>
+
+        <h2 id="familia-amigos">Familia y amigos</h2>
+        <ul>
+            <li><strong>Lilo Pelekai:</strong> Su mejor amiga y quien lo adopta como mascota.</li>
+            <li><strong>Nani Pelekai:</strong> Hermana mayor de Lilo.</li>
+            <li><strong>Jumba Jookiba:</strong> Científico que creó a Stitch.</li>
+            <li><strong>Pleakley:</strong> Alienígena que ayuda a cuidar de Stitch.</li>
+        </ul>
+    </div>
+</body>
+</html>
